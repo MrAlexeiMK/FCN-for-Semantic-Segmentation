@@ -75,6 +75,9 @@ Run the following commands in Terminal.
 
     git clone https://github.com/Gurupradeep/FCN-for-Semantic-Segmentation.git
     cd FCN-for-Semantic-Segmentation
+	!wget https://www.vlfeat.org/matconvnet/models/pascal-fcn16s-dag.mat
+	!wget https://www.vlfeat.org/matconvnet/models/pascal-fcn8s-dag.mat
+	pip install -r requirements.txt
     jupyter notebook
     
 It opens up all the notebooks which are there in the directory in the browser. 
